@@ -11,10 +11,10 @@ composition, roles, and the tasks at hand.
 
 | Role | Named Members |
 |------|---------|
-| Mechanical Engineering | |
-| Electrical Engineering | |
-| Computer Engineering | |
-| Biomedical Engineering | |
+| Mechanical Engineering | Elaine Zeng, Marissa Zhai, Sara Mcdermott|
+| Electrical Engineering | Jessica Qiu |
+| Computer Engineering | Dakota Wang, Melinda Tran|
+| Biomedical Engineering | NA |
 
 ---
 
