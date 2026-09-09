@@ -42,8 +42,8 @@ This circuit implements a timer with a mechanical countdown display. A user sele
 
 | XIAO Pin | LED Leg |
 |----------|---------|
-| GPIO7 | Red |
-| GPIO8 | Blue |
+| GPIO7 | Blue |
+| GPIO8 | Red |
 | GPIO9 | Green |
 | GND/13 | Common leg → GND |
 
