@@ -39,7 +39,7 @@ XIAO ESP32-S3 microcontroller drives an L293D H-bridge to control a 28BYJ-48 uni
 | GPIO7 | Red |
 | GPIO8 | Blue |
 | GPIO9 | Green |
-| — | Common leg → GND |
+| GND/13 | Common leg → GND |
 
 ### XIAO ESP32-S3 → Buttons
 
