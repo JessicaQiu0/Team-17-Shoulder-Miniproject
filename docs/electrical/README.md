@@ -9,7 +9,13 @@
 
 ## Overview
 
-XIAO ESP32-S3 microcontroller drives an L293D H-bridge to control a 28BYJ-48 unipolar stepper motor (wave-pulse sequencing), plus a common-cathode RGB LED (PWM-controlled, 220Ω current-limiting resistors) and 2 push buttons for user input.
+This circuit implements a timer with a mechanical countdown display. A user selects a preset time (15/20/25/30 min) and starts the timer using two buttons. As time counts down, a stepper motor rotates a clock hand to show time remaining, while an RGB LED pulses to indicate the timer's status (e.g., running, paused, or finished).
+
+**Motor control:** Since the XIAO's GPIO pins output 3.3V and can't directly drive the motor, an L293D H-bridge driver sits between them. It takes the 3.3V logic signals and switches the motor's 5V power accordingly. The stepper is driven using wave-pulse sequencing (energizing one coil at a time in sequence) to rotate the clock hand.
+
+**LED feedback:** A common-cathode RGB LED, current-limited with 220Ω resistors on each color leg, is PWM-driven by the microcontroller to pulse and change color based on timer state.
+
+**User input:** Two push buttons let the user select a preset and control start/pause/reset, read directly by the microcontroller's GPIO pins.
 
 ## Pin Mapping
 
