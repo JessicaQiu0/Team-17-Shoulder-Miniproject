@@ -3,6 +3,11 @@
 ## Overview
 This folder contains the MicroPython firmware for the meeting timer!
 
+There are two main firmware files:
+
+- `main.py` - standard meeting timer firmware
+- `main_low_power.py` - meeting timer firmware with added low-power behavior (When the timer is not actively running, the ESP32 enters short 50 ms light sleep periods to reduce power use while still remaining responsive to button presses and LED updates)
+
 The firmware controls:
 - the stepper motor
 - two push buttons
