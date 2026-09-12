@@ -68,7 +68,7 @@ This circuit implements a timer with a mechanical countdown display. A user sele
 |------|-----|--------|-----------|-------|
 | Seeed XIAO ESP32-S3 | 1 | Digikey | $7.49 | Main microcontroller |
 | L293D H-bridge driver | 1 | Digikey | $8.86 | Level-shifts 3.3V logic to 5V motor power |
-| 28BYJ-48 stepper motor | 1 | Adafruit | $4.95 | Drives clock hand; exact price TBD, no clean single-unit listing found |
+| 28BYJ-48 stepper motor | 1 | Adafruit | $4.95 | Drives clock hand; no clean single-unit listing found |
 | RGB LED (common cathode, 4-pin) | 1 | Digikey | $2.66 | PWM-driven, indicates timer state |
 | Tactile switch | 2 | Digikey | $0.10 | Button 1 (preset select), Button 2 (start/pause/reset) |
 | 220Ω resistor | 3 | Digikey | $0.10| LED current limiting |
