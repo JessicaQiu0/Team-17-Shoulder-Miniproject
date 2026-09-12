@@ -35,8 +35,11 @@ composition, roles, and the tasks at hand.
 
 | Component | Notes |
 |-----------|-------|
-| Thing 1 | Thing 1 notes  |
-| Thing 2 | Thing 2 notes  |
+| Seeed XIAO ESP32-S3 | Main microcontroller, runs MicroPython |
+| 28BYJ-48 stepper motor | 5-wire, 4-phase unipolar, drives clock hand |
+| L293D H-bridge driver | Level-shifts 3.3V logic to 5V motor power |
+| RGB LED (common cathode, 4-pin) | PWM-driven per color channel, indicates timer state |
+| 2× tactile switches | Preset select + start/pause/reset control |
 
 ---
 
