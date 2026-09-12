@@ -4,8 +4,8 @@
 
 | File | Description |
 |------|-------------|
-| `SeniorDesign_MiniProject_Schematic.pdf` | Full circuit schematic |
-| `SeniorDesign_MiniProject_Schematic.kicad_sch` | Editable KiCad source file |
+| `Electrical_Schematic.pdf` | Full circuit schematic |
+| `Electrical_Schematic.kicad_sch` | Editable KiCad source file |
 
 ## Overview
 
