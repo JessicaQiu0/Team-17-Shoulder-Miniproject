@@ -11,6 +11,6 @@
 
 ## Quick Links
 
-- [Firmware](./firmware/)
-- [Electrical](./hardware/electrical/)
-- [Enclosure](./hardware/mechanical/)
+- [Firmware](../firmware/)
+- [Electrical](../hardware/electrical/)
+- [Enclosure](../hardware/mechanical/)
