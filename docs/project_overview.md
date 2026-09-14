@@ -26,3 +26,9 @@ The meeting timer is built around a Seeed XIAO ESP32-S3 running MicroPython. A 2
 - 3D-printed enclosure housing all components
 - Full documentation: electrical schematic, firmware code, mechanical CAD, and a state chart/flowchart of system operation
 
+## References
+
+- Seeed Studio XIAO ESP32-S3 documentation
+- MicroPython ESP32-S3 documentation
+- L293D datasheet
+- 28BYJ-48 stepper motor datasheet
