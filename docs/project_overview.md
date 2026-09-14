@@ -12,6 +12,10 @@ The meeting timer is built around a Seeed XIAO ESP32-S3 running MicroPython. A 2
 
 ![Meeting timer device](Mini%20project%20photo.jpeg)
 
+## Demo Video
+
+[Watch the device in operation](https://drive.google.com/file/d/1FZ5ZU9aSdHHcK9WmNDZN5K3bjihf6jEc/view?usp=drive_link)
+
 ## How to Use It
 
 1. Power on the device via USB-C. The hand returns to the zero position.
