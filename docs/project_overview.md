@@ -8,6 +8,10 @@ Build a self-contained meeting timer with a mechanical display. The device lets 
 
 The meeting timer is built around a Seeed XIAO ESP32-S3 running MicroPython. A 28BYJ-48 stepper motor, driven through an L293D H-bridge, rotates a physical clock hand to show time remaining, moving from the selected preset position down to zero as the countdown progresses. An RGB LED communicates the current state through color and pulsing: blue for Selecting/Paused, green for Running, red for Finished. Two tactile buttons handle all user input. There is no screen, no wireless connection, and all of it is fully self-contained.
 
+## Photo
+
+![Meeting timer device](Mini%20project%20photo.jpeg)
+
 ## How to Use It
 
 1. Power on the device via USB-C. The hand returns to the zero position.
