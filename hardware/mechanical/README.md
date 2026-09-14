@@ -9,6 +9,8 @@
 | `Box Drawing.dxf` | 2D drawing of the enclosure body                               |
 | `Lid Drawing.dxf` | 2D drawing of the enclosure lid                                |
 | `Lid DXF.dxf`     | Clock face design used for engraving the lid                   |
+| `Pointer.dxf`     | DXF used to cut popsicle stick                                 |
+
 
 ## Overview
 
@@ -16,7 +18,7 @@ The mechanical design consists of a 3D-printable enclosure and lid that house th
 
 The enclosure was designed to keep the overall construction simple while providing the necessary mounting and access features for the electronics. The design includes a pathway for the external USB-C cable and a secure mounting location for the stepper motor.
 
-To give the device the appearance of a physical clock rather than a generic electronics enclosure, the team decided to use a clock-inspired aesthetic. A clock face was added to the lid as an engraving, with the stepper motor positioned so that its shaft can drive the external clock hand.
+To give the device the appearance of a physical clock rather than a generic electronics enclosure, the team decided to use a clock-inspired aesthetic. A clock face was added to the lid as an engraving, with the stepper motor positioned so that its shaft can drive the external clock hand. The popsicle stick was laser cut to be shorter to accommodate the LED and have a tip that aligns with the clock ticks.
 
 ## Enclosure Design
 
