@@ -4,8 +4,8 @@
 
 | File | Description |
 |------|-------------|
-| `project_overview.md` | High-level goals and deliverables |
-
+| project_overview.md | High-level goals, description, usage, and deliverables |
+| Mini project photo.jpeg | Photo of the completed device |
 
 ---
 
