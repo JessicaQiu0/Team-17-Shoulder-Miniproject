@@ -9,6 +9,7 @@ There are two main firmware files:
 - `timer_fsm.py` - timer state machine, button debouncing, and PWM breathing logic
 - `stepper_driver.py` - motor driver and stepping sequence routines
 - `main_low_power.py` - meeting timer firmware with added low-power behavior (When the timer is not actively running, the ESP32 enters short 50 ms light sleep periods to reduce power use while still remaining responsive to button presses and LED updates)
+- `full_main.py` - complete, unified meeting timer firmware implementing hardware initialization, event loops, finite state machine transitions, dynamic step tracking, and PWM breathing routines`
 
 The firmware controls:
 - the stepper motor
