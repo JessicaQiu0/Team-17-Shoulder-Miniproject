@@ -5,7 +5,9 @@ This folder contains the MicroPython firmware for the meeting timer!
 
 There are two main firmware files:
 
-- `main.py` - standard meeting timer firmware
+- `main.py` - standard meeting timer firmware (launches `timer_fsm.py` and `stepper_driver.py`)
+- `timer_fsm.py` - timer state machine, button debouncing, and PWM breathing logic
+- `stepper_driver.py` - motor driver and stepping sequence routines
 - `main_low_power.py` - meeting timer firmware with added low-power behavior (When the timer is not actively running, the ESP32 enters short 50 ms light sleep periods to reduce power use while still remaining responsive to button presses and LED updates)
 
 The firmware controls:
@@ -35,8 +37,8 @@ The timer supports four preset times:
 | Button 1 | GPIO 5 |
 | Button 2 | GPIO 6 |
 | Blue LED | GPIO 7 |
-| Red LED | GPIO 8 |
-| Green LED | GPIO 9 |
+| Red LED  | GPIO 8 |
+| Green LED| GPIO 9 |
 
 
 ## Controls
